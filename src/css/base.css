@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+p, li {
+    @apply text-2xl;
+}
+
 a {
-    @apply text-red-600;
-    @apply hover:underline;
+    @apply underline;
 }
