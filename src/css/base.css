@@ -7,7 +7,5 @@ p, li {
 }
 
 a {
-    @apply text-stone-400;
     @apply underline;
-    @apply hover:text-stone-500;
 }
