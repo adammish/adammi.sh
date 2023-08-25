@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p, li {
-    @apply text-2xl;
+    @apply text-xl;
 }
 
 a {
