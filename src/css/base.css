@@ -6,6 +6,12 @@ p, li {
     @apply text-xl;
 }
 
+ul {
+    @apply list-inside;
+    @apply list-disc;
+    @apply marker:text-stone-300;
+}
+
 a {
     @apply underline;
 }
