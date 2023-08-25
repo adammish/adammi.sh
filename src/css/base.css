@@ -9,3 +9,7 @@ p, li {
 a {
     @apply underline;
 }
+
+hr {
+    @apply border-stone-500;
+}
