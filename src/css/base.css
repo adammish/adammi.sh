@@ -9,7 +9,7 @@ p, li {
 ul {
     @apply list-inside;
     @apply list-disc;
-    @apply marker:text-stone-300;
+    @apply marker:text-blue-300;
 }
 
 a {
