@@ -3,6 +3,8 @@ module.exports = function (eleventyConfig) {
     watch: ["_site/**/*.css"],
   });
 
+  eleventyConfig.addPassthroughCopy("public");
+
   return {
     dir: {
       input: "src",
