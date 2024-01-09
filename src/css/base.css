@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-p, li {
-    @apply text-xl;
+p,
+li {
+  @apply text-lg text-gray-800;
 }
 
 ul {
-    @apply list-inside;
-    @apply list-disc;
-    @apply marker:text-blue-300;
+  @apply list-inside;
+  @apply list-disc;
+  @apply marker:text-red-500;
 }
 
 a {
-    @apply underline;
+  @apply border-b;
+  @apply border-red-500 pb-0.5;
 }
 
 hr {
-    @apply border-stone-500;
+  @apply border-gray-300;
 }
