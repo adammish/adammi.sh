@@ -9,16 +9,16 @@
     <link rel="icon" type="image/x-icon" href="/public/img/favicon.ico" />
     <title>{{ title | default: "adammi.sh" }}</title>
   </head>
-  <body class="flex min-h-screen flex-col">
-    <header class="border-b p-4">
+  <body class="flex min-h-screen flex-col bg-slate-800 text-white">
+    <header class="border-b border-yellow-300 p-4">
       <div class="mx-auto flex w-full max-w-4xl justify-between">
         <div>
           <a class="no-underline" href="/">
             <h1
-              class="border-b border-b-transparent text-xl font-light no-underline hover:border-b-black"
+              class="border-b border-b-transparent text-xl font-light no-underline hover:border-b-white"
             >
-              adam<span class="text-red-500">mi</span>.<span
-                class="text-red-500"
+              adam<span class="text-yellow-300">mi</span>.<span
+                class="text-yellow-300"
                 >sh</span
               >
             </h1>
@@ -27,7 +27,7 @@
         <div></div>
       </div>
     </header>
-    <main class="mx-auto w-full max-w-xl px-4 py-8 text-slate-800">
+    <main class="mx-auto w-full max-w-3xl px-4 py-8 text-white">
       {{ content }}
     </main>
     <!-- <footer class="bg-gray-200 py-2 text-center">Footer</footer> -->

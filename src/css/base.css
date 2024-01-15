@@ -4,20 +4,20 @@
 
 p,
 li {
-  @apply text-lg text-gray-800;
+  @apply text-lg;
 }
 
 ul {
   @apply list-inside;
   @apply list-disc;
-  @apply marker:text-red-500;
+  @apply marker:text-yellow-300;
 }
 
 a {
   @apply border-b;
-  @apply border-red-500 pb-0.5;
+  @apply border-yellow-300 pb-0.5;
 }
 
 hr {
-  @apply border-gray-300;
+  @apply border-yellow-300;
 }
